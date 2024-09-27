@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script defer src="script.js"></script>
+    <title>Pokédex</title>
+</head>
+<body>
+    <header>
+        <h1>Pokévolution</h1>
+    </header>
+    <div id="content">
+            <div>
+                <img id="picDisplay"/>
+                <h2 id="nameDisplay"></h2>
+            </div>
+            <div id="inline-flex">
+                <div>
+                    <img id="baseFormPicDisp"/>
+                    <p id="baseFormNameDisp"></p>
+                </div>
+                <div>
+                    <img id="firstEvolPicDisp"/>
+                    <p id="firstEvolNameDisp"></p>
+                </div>
+                <div>
+                    <img id="secondEvolPicDisp"/>
+                    <p id="secondEvolNameDisp"></p>
+                </div>
+            </div>
+    </div>
+    <div id="search">
+        <form>
+            <input type="text" value="" placeholder="Enter pokémon and catch!" id="inputBar">
+            <input type="button" id="searchButton">
+        </form>
+    </div>
+
+</body>
+</html>
